@@ -76,7 +76,7 @@ class MusicLibraryController
     input = gets.strip
 
     #binding.pry
-    input = "4"
+    input = 4
     if input.is_a?(Integer) == true
       list = Song.all.sort{|a,b| a.name <=> b.name}
       list.each.with_index do |song, index|

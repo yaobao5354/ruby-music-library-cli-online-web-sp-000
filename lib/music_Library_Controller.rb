@@ -72,6 +72,7 @@ class MusicLibraryController
 
   def play_song
     puts "Which song number would you like to play?"
+    self.list_songs
     input = gets.strip
     binding.pry
     if input.is_a?(Integer) == true

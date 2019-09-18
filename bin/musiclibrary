@@ -3,3 +3,7 @@
 require_relative '../config/environment'
 
 MusicLibraryController.new.call
+input = gets.strip
+while input != "exit"
+  input = gets.strip
+end

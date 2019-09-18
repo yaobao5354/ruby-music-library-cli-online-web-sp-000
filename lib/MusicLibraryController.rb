@@ -32,9 +32,6 @@ class MusicLibraryController
       elsif input == "play song"
         self.play_song
       end
-
-
-
       input = gets.strip
     end
   end
@@ -99,5 +96,4 @@ class MusicLibraryController
       end
     end
   end
-
 end

@@ -22,7 +22,7 @@ class MusicLibraryController
       input = gets.strip
       if input == "list songs"
         puts self.list_songs
-      end 
+      end
 
     end
   end

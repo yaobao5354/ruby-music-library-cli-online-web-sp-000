@@ -21,9 +21,6 @@ class MusicLibraryController
     while input != "exit"
       input = gets.strip
     end
-    if input == "list songs"
-      self.list_songs
-    end
   end
 
   def list_songs

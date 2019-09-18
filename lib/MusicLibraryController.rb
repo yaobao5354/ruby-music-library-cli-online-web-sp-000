@@ -19,10 +19,11 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.strip
     while input != "exit"
-      input = gets.strip
       if input == "list songs"
         self.list_songs
       end 
+      input = gets.strip
+
     end
   end
 
